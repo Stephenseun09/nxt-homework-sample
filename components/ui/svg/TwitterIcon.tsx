@@ -1,11 +1,10 @@
-import { SvgProps } from "./svgPropTypes";
 
-const TwitterIcon = ({ w = "24", h = "24", className }: SvgProps) => {
+const TwitterIcon = ({  className }:React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       className={className}
-      width={w}
-      height={h}
+      width='24'
+      height='24'
       viewBox="0 0 30 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
