@@ -29,7 +29,7 @@ const Left = ({ footerDescription }: FooterDataTypes) => {
         <div className=" mb-4 ">
           {/*-----------------------*/}
           {/*---- Betacare Logo ----*/}
-          <BetaCareLogo src="/images/betacare-logo-white.png " />
+          <BetaCareLogo />
         </div>
         {/* ---------------------- */}
 
